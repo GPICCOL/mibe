@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>GenAI and the GPT magic</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./web_files/w3.css">
+<link rel="stylesheet" href="./web_files/w3-theme-black.css">
+<link rel="stylesheet" href="./web_files/css?family=Roboto">
+<link rel="stylesheet" href="./web_files//font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="./index.html#Intro" class="w3-bar-item w3-button w3-theme-l1">MIBE: Information Systems for Managers</a>
+    <a href="./index.html#Module1" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 1</a>
+    <a href="./index.html#Module2" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 2</a>
+    <a href="./index.html#Module3" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 3</a>
+    <a href="./index.html#Module4" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 4</a>
+    <a href="./index.html#Module5" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 5</a>
+    <a href="./index.html#Module6" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 6</a>
+    <a href="./index.html#Module7" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Module 7</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Intro">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module1">Module 1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module2">Module 2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module3">Module 3</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module4">Module 4</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module5">Module 5</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module6">Module 6</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#Module7">Module 7</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+    <a name="Intro"></a>
+    <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">GenAI and the GPT magic</h1>
+        <p>
+          This page provides links and access to all the materials and activities you need to play along and understand how generative AI works</b>
+        </p>
+      <h3 class="w3-text-teal">Data and data preparation</h3>
+        <p>
+        	<ul>
+          <li>
+          	Activity 1: Visit <a href="https://chatgpt.com/" target="new">ChatGPT</a>. Type something in the chat and think about what is happening. Can you explain what is going on in the background? How does this helpful, truthful, harmless assistant work?
+          </li>
+          <li>
+            High quality Web text, like the <a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1" target="new">FineWeb</a> dataset, is a key ingredient of machine learning models. FineWeb is aa large-scale (15-trillion tokens, 44TB disk space) dataset for Large Language Model pre-training.
+          </li>   
+          <li>
+            Activity 2: Visit the <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb" target="new">FineWeb</a> dataset page on the <a href="https://huggingface.co/" target="new">Hugging Face</a> AI community website and explore it. Get a feel for the type of text that makes up the Fine Web dataset. 
+          </li>
+           <li>
+            A training dataset is a one dimensional sequence of text, like this <a href="./handouts/ch2case.pdf" target="new">sample of 200 documents from the FineWeb</a> dataset.
+          </li>
+      </ul>
+        </p>
+      <h3 class="w3-text-teal">Module 2 - Foundations</h3>
+        <p>
+         <ul>
+           <li>
+          	Hardware: <a href="https://viliusle.github.io/miniPaint/" target="new">Image Editing Software</a>
+          </li>
+           <li>
+          	Hardware: <a href="https://logic.ly/demo/" target="new">Logic.ly circuit drawing canvas</a>
+          </li>
+           <li>
+          	Software: <a href="http://www.w3schools.com/html/" target="new">HTML canvas</a>
+          </li>
+           <li>
+          	Software: <a href="http://www.w3schools.com/html/" target="new">JavaScript canvas</a>
+          </li>
+           <li>
+          	Networking: <a href="http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html" target="new">Terminus game</a>
+          </li>
+          <li>
+          	Networking: <a href="http://www.speedtest.net/" target="new">Ookla Speedtest</a>
+          </li>
+          <li>
+          	Networking: <a href="http://domaintoipconverter.com/" target="new">Domain to IP converter</a>
+          </li>
+          <li>
+          	Chapter 3: Minicase <a href="./handouts/ch3minicase.pdf" target="new">Integration at BigPharma, Inc.</a>
+          </li>
+      </ul>
+         </p>
+      <h3 class="w3-text-teal">Module 3 - The Changing Competitive Environment</h3>
+        <p>
+          <ul>
+            <li>
+              Chapter 4 Minicase : <a href="./handouts/ch4minicase.pdf">Airbnb and the Ghost of Start-Ups Past</a>
+            </li>
+            <li>
+              Minicase: <a href="./handouts/britannica_mini.pdf">Encyclopedia Britannica</a>
+            </li>
+          	 <li>
+          		Case Study: <a href="./handouts/online_education_standalone.pdf" target="new">Online Education: No Revolution?</a>
+          	</li>
+            <li>
+              Case Study: <a href="./handouts/smalls_sliders_standalone.pdf" target="new">Smalls Sliders: The Composable Restaurant Franchise</a>
+            </li>
+          </ul>
+        </p>
+
+<!--       <h3 class="w3-text-teal">Module 4 - Information Systems Planning and Added Value</h3>
+        <p>
+          <ul>
+          	<li>
+          		Prof. Pigni 3: <a href="./handouts/fp_digital business.pdf" target="new">Value Creation with Information Systems and Digital Technology</a>
+          	</li>
+          </ul>
+         </p>
+      <h3 class="w3-text-teal">Module 5 - Creation and Appropriation of Value</h3>
+        <p>
+          <ul>
+          	<li>
+          		Case Study: <a href="./handouts/smalls_sliders_standalone.pdf" target="new">Small Sliders: The Composable Restaurant Franchise</a>
+          	</li>
+          	 <li>
+          		Exercise: <a href="./handouts/cslc.pdf" target="new">Customer Service Life Cycle</a>
+          	</li>
+           	<li>
+          		Minicase: <a href="./handouts/ch7av1.pdf" target="new">Added Value at Al Dente</a>
+          	</li>
+          	<li>
+          		Minicase: <a href="./handouts/ch7av2.pdf" target="new">B</a>
+          	</li>
+          	 <li>
+          		Minicase: <a href="./handouts/ch7av3.pdf" target="new">C</a>
+          	</li>
+            <li>
+              Article: <a href="./handouts/ch9_it_doesnt matter_brief.pdf" target="new">IT Doesn't Matter</a> brief
+            </li>
+          </ul>
+         </p> 
+      <h3 class="w3-text-teal">Module 6 - Funding and Building Informaton Systems</h3>
+        <p>
+          <ul>
+             <li>
+              Lego Game: <a href="./handouts/lego_requirements.pdf" target="new">Requirements document</a>
+            </li>
+          </ul>
+        </p>
+      <h3 class="w3-text-teal">Module 7 - Emerging Tech and Cybersecurity</h3>
+        <p>
+          <ul>
+          	<li>
+          		Blockchain: <a href="https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711?i=1000517565192" target="new">a16z Introduction Podcast Crypto history and concepts.</a> This is a great primer on all things crypto, from its genesis to future trends. 
+          	</li>
+             <li>
+              Minicase: <a href="./handouts/ch13_minicase.pdf" target="new">Reinvent Travel</a>
+            </li>
+
+          </ul> --> 
+         </p>
+
+     <a name="Slides"></a>
+      <h3 class="w3-text-teal">Class Slides</h3>
+        <p>
+          <ul>
+            <li>
+              Chapter 1: <a href="./slide/02_Ch1_Trends.pdf" target="new">Trends</a>
+            </li>
+            <li>
+              Chapter 2: <a href="./slide/03_Ch2_InfoSystem.pdf" target="new">Foundations</a>
+            </li>
+            <li>
+              Extra: <a href="./slide/04_Hardware.pdf" target="new">Hardware Foundations</a>
+            </li>
+            <li>
+              Extra: <a href="./slide/05_Software.pdf" target="new">Software Foundations</a>
+            </li>
+            <!--<li>
+              Extra: <a href="./slide/06_Networking.pdf" target="new">Networking Foundations</a>
+            </li>
+            <li>
+              Chapter 3: <a href="./slide/fede_Ch3_Organizational_InfoSystem.pdf" target="new">Organizational Information Systems</a>
+            </li> 
+            <li>
+              Chapter 4: <a href="./slide/07_Ch4_competitive_change.pdf" target="new">Digital Disruption and the Competitive Environment</a>
+            </li>
+            <li>
+              Chapter 5: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/08_Ch5_digital_transformation_innovation.pdf" target="new">Digital Transformation, Innovation and Entrepreneurship</a>
+            </li>
+            <li>
+              Chapter 6: <a href="./slide/fedeCh6_Strategic Information Systems Planning.pdf" target="new">Strategic Information Systems Planning</a>
+            </li>
+            <li>
+               Chapter 7: <a href="./slide/09_Ch7_AddedValue.pdf" target="new">Value Creation and Strategic Information Systems</a>
+            </li>
+            <li>
+              Chapter 8: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/fede_CH08_Digital_Value_Creation.pdf" target="new">Digital Value Creation</a>
+            </li>
+        <li>
+           Chapter 9: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/digital_value_capture.pdf" target="new">Digital Value Capture</a>
+            </li>
+            <li>
+           Chapter 10: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/13_Ch10_funding_IS.pdf" target="new">Funding IS</a>
+            </li>
+            <li>
+              Chapter 11: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/14_Ch11_Creating_IS.pdf" target="new">Creating IS</a>
+            </li>
+            <li>
+              Chapter 12: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/CH12_Information_systems_Trends.pdf" target="new">Information Systems Trends</a>
+            </li>
+            <li>
+              Chapter 13: <a href="https://dds.cct.lsu.edu/wwwgp/mibe/15_Ch13_Security.pdf" target="new">Cyber, Privacy, Ethics</a>
+            </li> -->
+          </ul>
+         </p>
+
+ <a name="Schedule"></a>
+      <h3 class="w3-text-teal">Meeting Schedule</h3>
+        <p>This is the updated schedule of meetings, organized by week. Class meetings are in the 11-13 and 15-17 time slots on Mondays and 11-13 and 15-17 on Tuesdays: </p>
+<!--         <li>
+          Week of February 24th - Class held by Prof. Piccoli
+        </li>
+        <li>
+          Week of March 3rd - Class held by Prof. Piccoli
+        </li> -->
+        <li>
+          Week of March 24th - Class held by Prof. Piccoli
+        </li>
+        <li>
+          Week of March 31st- Class held by Prof. Piccoli
+        </li>
+        <li>
+          Week of April 7th - Class held by Prof. Pigni
+        </li>
+        <li>
+          Week of April 28th - Class held by Prof. Pigni
+        </li>
+        <li>
+          Week of May 5th - Class held by Prof. Piccoli
+        </li>
+        <li>
+          Week of May 12th - Class held by Prof. Piccoli
+        </li>
+        <li>
+          Week of May 19th - Class held by Prof. Piccoli
+        </li>
+    </div>
+  </div>
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>MIBE: Information Systems for Managers</h4>
+      <h4>2025 Edition</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
