@@ -76,7 +76,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
             Activity 2: Visit the <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb" target="new">FineWeb</a> dataset page on the <a href="https://huggingface.co/" target="new">Hugging Face</a> AI community website and explore it. Get a feel for the type of text that makes up the Fine Web dataset. 
           </li>
            <li>
-            A training dataset is a one-dimensional sequence of text, like this <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/fine-web-200.txt" target="new">sample of 200 documents from the FineWeb</a> dataset. This one-dimensional sequence of text must have some represetnation. Here you can see a UTF-8 representation of the <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/fine-web-200-hex-only.txt" target="new">sample of 200 documents from the FineWeb</a> in the previous dataset.
+            A training dataset is a one-dimensional sequence of text, like this <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/fine-web-200.txt" target="new">sample of 200 documents from the FineWeb</a> dataset. This one-dimensional sequence of text must have some representation. Here you can see a UTF-8 representation of the <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/fine-web-200-hex-only.txt" target="new">sample of 200 documents from the FineWeb</a> in the previous dataset.
           </li>
       </ul>
         </p>
@@ -104,10 +104,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
               Video 4: You could try to train your own transformer, but if you don't have time, what this video of <a href="https://www.youtube.com/watch?v=7xTGNNLPyMI&t=2000s" target="new">Andrej Karpathy reproducing GPT2</a>.
             </li>
            <li>
-            Activity 5: To get a sense of some characteristics and limitations of language models, we can experiment with GPT2. Download <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/GPT2-code.rtf" target="new">the code</a> we need and paste it into a cell at <a href="https://colab.research.google.com/" target="new">Google Colab</a>. If all goes well you should be able to change the prompt between the quotes <i>"This is the beginning of some text that "</i> and play with parameters such as temperature and max_length.
+            Activity 5: To get a sense of some characteristics and limitations of language models, we can experiment with GPT2. Download <a href="https://dds.cct.lsu.edu/wwwgp/genai-activity/data-files/GPT2-code.rtf" target="new">the code</a> we need and paste it into a cell at <a href="https://colab.research.google.com/" target="new">Google Colab</a>. If all goes well, you should be able to change the prompt between the quotes <i>"This is the beginning of some text that "</i> and play with parameters such as temperature and max_length.
           </li> 
             <li>
-              Video 5: A critical element of the transformer is <a href="https://www.3blue1brown.com/lessons/attention" target="new">attention</a>. Using the attention mechanism the transformer updates the embedding of each token to encode not only it's original meaning, but an increasing amount of contextual information gleaned from preceeding tokens in the context window.
+              Video 5: A critical element of the transformer is <a href="https://www.3blue1brown.com/lessons/attention" target="new">attention</a>. Using the attention mechanism the transformer updates the embedding of each token to encode not only it's original meaning, but an increasing amount of contextual information gleaned from preceding tokens in the context window.
             </li>
             <li>
               Video 6: A final element of the transformer is <a href="https://www.3blue1brown.com/lessons/mlp" target="new">memory</a>. This is where the "knowldege of the world" lives in the language model - a component known as the Multilayer Perceptron (MLP).
@@ -122,7 +122,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         <p>
           <ul>
              <li>
-              Activity 7: Visit <a href="https://tiktokenizer.vercel.app/?model=gpt-3.5-turbo" target="new">TikTokenizer</a>, select an "insturct" model like gpt-3.5-turbo. Evaluate the tokens in the "immaginary monologue" and their structure. Despite looking like a conversation, everything processed by the model is still a one-dimensional sequence of tokens.
+              Activity 7: Visit <a href="https://tiktokenizer.vercel.app/?model=gpt-3.5-turbo" target="new">TikTokenizer</a>, select an "insturct" model like gpt-3.5-turbo. Evaluate the tokens in the "imaginary monologue" and their structure. Despite looking like a conversation, everything processed by the model is still a one-dimensional sequence of tokens.
             </li>
           </ul>
          </p>
@@ -130,7 +130,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         <p>
           <ul>
              <li>
-              Activity 8: Visit the <a href="https://huggingface.co/playground" target="new">HuggingFace Playground</a> and load a small model. For example, tibiae falcon-7B-instruct or teknium OpenHermes-2.5-Mistral-7B. Ask about a person that does not exist and resample multiple time an answer. Ask about the oucome of recent events, such as a recent election or sports event. Repeat the same questions in <a href="https://chatgpt.com/" target="new">ChatGPT</a>. What's the difference? Why is it happening?
+              Activity 8: Visit the <a href="https://huggingface.co/playground" target="new">HuggingFace Playground</a> and load a small model. For example, tibiae falcon-7B-instruct or teknium OpenHermes-2.5-Mistral-7B. Ask about a person that does not exist and resample multiple time an answer. Ask about the outcome of recent events, such as a recent election or sports event. Repeat the same questions in <a href="https://chatgpt.com/" target="new">ChatGPT</a>. What's the difference? Why is it happening?
             </li>
              <li>
               Activity 9: Visit <a href="https://en.wikipedia.org/wiki/Gianluigi_Donnarumma" target="new">Wikipedia</a> and collect text about a recent event or person you are interested in. Paste the text in <a href="https://chatgpt.com/" target="new">ChatGPT</a> and have it create three questions about the information. Then go to <a href="https://huggingface.co/playground" target="new">HuggingFace Playground</a> and load a small model. For example, tibiae falcon-7B-instruct or teknium OpenHermes-2.5-Mistral-7B. Verify if the model knows the information you selected by asking each of the questions (resample a few times). What can you conclude from the exercise? (5 min).
