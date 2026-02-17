@@ -37,6 +37,7 @@ import Downloads from './pages/Downloads.js';
 import Hardware from './pages/Hardware.js';
 import Software from './pages/Software.js';
 import Networking from './pages/Networking.js';
+import Schedule from './pages/Schedule.js';
 import Navbar from './components/Navbar.js';
 
 // Define Routes
@@ -45,7 +46,8 @@ const routes = {
     '/downloads': Downloads,
     '/hardware': Hardware,
     '/software': Software,
-    '/networking': Networking
+    '/networking': Networking,
+    '/schedule': Schedule
 };
 
 // Initialize Router and Layout

@@ -9,6 +9,7 @@ export default {
                 <div class="nav-links">
                     <a href="#/" class="nav-link">Home</a>
                     <a href="#/downloads" class="nav-link">Downloads</a>
+                    <a href="#/schedule" class="nav-link">Slides</a>
                     <button id="theme-toggle" class="nav-link" style="background: none; border: none; cursor: pointer; padding: 0; font: inherit;">
                         <i class="fa fa-adjust"></i> Theme
                     </button>
