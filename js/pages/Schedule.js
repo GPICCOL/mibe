@@ -16,8 +16,8 @@ export default {
                 const slides = [
                     { title: "Chapter 1", file: "01_trends.pdf" },
                     { title: "Chapter 2", file: "02_definitions.pdf" },
-                    { title: "Hardware", file: null },
-                    { title: "Software", file: null },
+                    { title: "Hardware", file: "03_hardware.pdf" },
+                    { title: "Software", file: "04_software.pdf" },
                     { title: "Networking", file: null },
                     { title: "Chapter 3", file: null },
                     { title: "Chapter 4", file: null },
