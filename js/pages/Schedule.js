@@ -48,14 +48,14 @@ export default {
                     <div class="glass-card">
                         <h3 style="color: var(--color-primary); margin-bottom: 1.5rem; border-bottom: 2px solid var(--glass-border); padding-bottom: 0.5rem;">Class Schedule</h3>
                         <ul style="list-style: none; padding: 0;">
-                            <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                            <!-- <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of February 16</h3>
                                 <p>Class held by Prof. Piccoli</p>
                             </li>
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of February 23</h3>
                                 <p>Class held by Prof. Piccoli</p>
-                            </li>
+                            </li> -->
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 9</h3>
                                 <p>Class held by Prof. Piccoli</p>
