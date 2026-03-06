@@ -53,6 +53,14 @@ export default {
                 <!-- Module 3 -->
                 <div class="glass-card module-content">
                     <h3 class="module-title">Module 3 - The Changing Competitive Environment</h3>
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">GenAI - Resources</h4>
+                    <ul>
+                        <li>
+                            <span>Case Study</span>
+                            <a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/nivarta.pdf" target="_blank">Nivarta <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+
                     <ul>
                         <li>
                             <span>Chapter 4: Minicase</span>
@@ -65,10 +73,6 @@ export default {
                         <li>
                             <span>Case Study</span>
                             <a href="handouts/online_education_standalone.pdf" target="_blank">Online Education: No Revolution? <i class="fa fa-file-pdf"></i></a>
-                        </li>
-                        <li>
-                            <span>Case Study</span>
-                            <a href="handouts/smalls_sliders_standalone.pdf" target="_blank">Smalls Sliders: The Composable Restaurant Franchise <i class="fa fa-file-pdf"></i></a>
                         </li>
                     </ul>
                 </div>

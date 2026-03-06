@@ -103,6 +103,29 @@ export default {
                           </ul>
                     </div>
 
+                <!-- Module 3 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 3: The Digital Age</h3>
+                    <p class="mb-4">This module covers a lot of concepts that will help you understand how to navigate the ever changing competitive environment.</p>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">GenAI - Resources</h4>
+                    <ul>
+                        <li><a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/nivarta.pdf" target="_blank">Case Study: Nivarta</a></li>
+                    </ul>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 4 - Resources</h4>
+                    <ul>
+                        <li><a href="handouts/online_education_standalone.pdf" target="_blank">Case Study: Online Education: No Revolution?</a></li>
+                    </ul>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 5 - Resources</h4>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=Cw5QYwhhog8" target="_blank">Understanding How To Implement Sustainable Business Models</a></li>
+                        <li><a href="https://www.mturk.com/" target="_blank">Amazon Mechanical Turk</a></li>
+                        <li><a href="https://ideas.lego.com/" target="_blank">Lego Ideas</a></li>
+                    </ul>
+                </div>
+
                 <!-- Placeholders for future modules can be added here -->
                 <!-- 
                 <div class="glass-card module-content" style="opacity: 0.5;">
