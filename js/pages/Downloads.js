@@ -50,6 +50,29 @@ export default {
                     </ul>
                 </div>
 
+                <!-- Module 3 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 3 - The Changing Competitive Environment</h3>
+                    <ul>
+                        <li>
+                            <span>Chapter 4: Minicase</span>
+                            <a href="handouts/ch4minicase.pdf" target="_blank">Airbnb and the Ghost of Start-Ups Past <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Minicase</span>
+                            <a href="handouts/britannica_mini.pdf" target="_blank">Encyclopedia Britannica <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Case Study</span>
+                            <a href="handouts/online_education_standalone.pdf" target="_blank">Online Education: No Revolution? <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Case Study</span>
+                            <a href="handouts/smalls_sliders_standalone.pdf" target="_blank">Smalls Sliders: The Composable Restaurant Franchise <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
         `;
