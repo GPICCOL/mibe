@@ -111,7 +111,8 @@ export default {
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">GenAI - Resources</h4>
                     <ul>
                         <li><a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/nivarta.pdf" target="_blank">Case Study: Nivarta</a></li>
-                        <li><a href="https://genai-primer.lovable.app" target="_blank">GenAI activities and videos</a></li>
+                        <li><a href="https://poloclub.github.io/transformer-explainer/" target="_blank">GenAI: Transformer Architecture</a></li>
+                        <li><a href="https://genai-primer.lovable.app" target="_blank">GenAI: Activities and videos</a></li>
                     </ul>
 
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 4 - Resources</h4>
