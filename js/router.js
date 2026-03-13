@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     app.innerHTML = layout;
 
     // Theme Switcher Logic
-    const themes = [null, 'light', 'warm']; // null is default (dark)
+    const themes = [null, 'light', 'warm', 'neon', 'cyberpunk', 'blood']; // null is default (dark)
     let currentTheme = localStorage.getItem('theme');
 
     // Apply saved theme

@@ -45,6 +45,51 @@
     --card-hover: rgba(255, 248, 225, 0.9);
 }
 
+/* Neon Theme */
+[data-theme="neon"] {
+    --primary-color: #ff007f;
+    --secondary-color: #00f0ff;
+    --background-color: #050505;
+    --surface-color: rgba(255, 0, 127, 0.05);
+    --text-primary: #ffffff;
+    --text-secondary: #00f0ff;
+    --glass-border: rgba(0, 240, 255, 0.2);
+    --glass-shadow: 0 4px 30px rgba(255, 0, 127, 0.3);
+    --nav-bg: rgba(5, 5, 5, 0.85);
+    --card-bg: rgba(15, 15, 15, 0.8);
+    --card-hover: rgba(255, 0, 127, 0.1);
+}
+
+/* Cyberpunk Theme */
+[data-theme="cyberpunk"] {
+    --primary-color: #fcee0a;
+    --secondary-color: #b026ff;
+    --background-color: #0d0221;
+    --surface-color: rgba(252, 238, 10, 0.05);
+    --text-primary: #e0e0e0;
+    --text-secondary: #fcee0a;
+    --glass-border: rgba(176, 38, 255, 0.3);
+    --glass-shadow: 0 4px 30px rgba(252, 238, 10, 0.15);
+    --nav-bg: rgba(13, 2, 33, 0.9);
+    --card-bg: rgba(26, 4, 66, 0.7);
+    --card-hover: rgba(176, 38, 255, 0.15);
+}
+
+/* Blood Theme */
+[data-theme="blood"] {
+    --primary-color: #ff0000;
+    --secondary-color: #8b0000;
+    --background-color: #0a0000;
+    --surface-color: rgba(255, 0, 0, 0.05);
+    --text-primary: #ffe6e6;
+    --text-secondary: #ff6666;
+    --glass-border: rgba(255, 0, 0, 0.2);
+    --glass-shadow: 0 4px 30px rgba(139, 0, 0, 0.4);
+    --nav-bg: rgba(10, 0, 0, 0.9);
+    --card-bg: rgba(20, 0, 0, 0.8);
+    --card-hover: rgba(255, 0, 0, 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
