@@ -64,7 +64,7 @@ export default {
                     <ul>
                         <li>
                             <span>Chapter 4: Minicase</span>
-                            <a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/Ch4-minicase.pdf" target="_blank">Facebook and the Billion-Dollar Bet<i class="fa fa-file-pdf"></i></a>
+                            <a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/Ch4-minicase.pdf" target="_blank">Facebook's Billion-Dollar Bet<i class="fa fa-file-pdf"></i></a>
                         </li>
                         <li>
                             <span>Minicase</span>
@@ -76,7 +76,7 @@ export default {
                         </li>
                     </ul>
                 </div>
-<!--
+
                 <!-- Module 4 -->
                 <div class="glass-card module-content">
                     <h3 class="module-title">Module 4 - Information Systems Planning and Added Value</h3>
@@ -87,7 +87,7 @@ export default {
                         </li>
                     </ul>
                 </div>
--->
+
             </div>
         </section>
         `;
