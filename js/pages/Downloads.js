@@ -64,7 +64,7 @@ export default {
                     <ul>
                         <li>
                             <span>Chapter 4: Minicase</span>
-                            <a href="handouts/ch4minicase.pdf" target="_blank">Airbnb and the Ghost of Start-Ups Past <i class="fa fa-file-pdf"></i></a>
+                            <a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/Ch4-minicase.pdf" target="_blank">Facebook and the Billion-Dollar Bet<i class="fa fa-file-pdf"></i></a>
                         </li>
                         <li>
                             <span>Minicase</span>
@@ -72,11 +72,22 @@ export default {
                         </li>
                         <li>
                             <span>Case Study</span>
-                            <a href="handouts/online_education_standalone.pdf" target="_blank">Online Education: No Revolution? <i class="fa fa-file-pdf"></i></a>
+                            <a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/Ch4-fullcase.pdf" target="_blank">Online Education: No Revolution? <i class="fa fa-file-pdf"></i></a>
                         </li>
                     </ul>
                 </div>
-
+<!--
+                <!-- Module 4 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 4 - Information Systems Planning and Added Value</h3>
+                    <ul>
+                        <li>
+                            <span>Reading</span>
+                            <a href="handouts/fp_digital business.pdf" target="_blank">Value Creation with Information Systems and Digital Technology <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+                </div>
+-->
             </div>
         </section>
         `;
