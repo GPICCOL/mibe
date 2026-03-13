@@ -18,7 +18,7 @@ export default {
                     { title: "Chapter 2", file: "02_definitions.pdf" },
                     { title: "Hardware", file: "03_hardware.pdf" },
                     { title: "Software", file: "04_software.pdf" },
-                    { title: "Networking", file: null },
+                    { title: "Networking", file: "05_Networking.pdf" },
                     { title: "Chapter 3", file: null },
                     { title: "Chapter 4", file: null },
                     { title: "Chapter 5", file: null },
@@ -59,11 +59,11 @@ export default {
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 9</h3>
                                 <p>Class held by Prof. Piccoli</p>
-                            </li> -->
+                            </li> 
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 16</h3>
                                 <p>Class held by Prof. Piccoli</p>
-                            </li>
+                            </li> -->
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 30</h3>
                                 <p>Class held by Prof. Pigni</p>
