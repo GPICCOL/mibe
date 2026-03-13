@@ -117,7 +117,7 @@ export default {
 
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 4 - Resources</h4>
                     <ul>
-                        <li><a href="handouts/online_education_standalone.pdf" target="_blank">Case Study: Online Education: No Revolution?</a></li>
+                        <li><a href="https://dds.cct.lsu.edu/wwwgp/mibe/cases/Ch4-fullcase.pdf" target="_blank">Case Study: Online Education: No Revolution?</a></li>
                     </ul>
 
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 5 - Resources</h4>
