@@ -71,6 +71,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Override app container
     app.innerHTML = layout;
 
+    // Menu Toggle Logic
+    const menuToggleBtn = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (menuToggleBtn && navLinks) {
+        menuToggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('show-menu');
+        });
+        
+        // Close menu when a link or button is clicked inside navLinks
+        navLinks.addEventListener('click', (e) => {
+            if (e.target.closest('a') || e.target.closest('button')) {
+                navLinks.classList.remove('show-menu');
+            }
+        });
+    }
+
     // Theme Switcher Logic
     const themes = [null, 'light', 'warm', 'neon', 'cyberpunk', 'blood']; // null is default (dark)
     let currentTheme = localStorage.getItem('theme');

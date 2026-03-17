@@ -6,6 +6,9 @@ export default {
                 <a href="#/" class="nav-brand">
                     <i class="fa fa-university"></i> MIBE <span style="font-weight: 300;">ISM</span>
                 </a>
+                <button id="menu-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
                 <div class="nav-links">
                     <a href="#/" class="nav-link">Home</a>
                     <a href="#/downloads" class="nav-link">Downloads</a>
