@@ -105,14 +105,6 @@ export default {
                             <a href="handouts/ch7av1.pdf" target="_blank">Added Value at Al Dente <i class="fa fa-file-pdf"></i></a>
                         </li>
                         <li>
-                            <span>Minicase</span>
-                            <a href="handouts/ch7av2.pdf" target="_blank">Added Value B <i class="fa fa-file-pdf"></i></a>
-                        </li>
-                        <li>
-                            <span>Minicase</span>
-                            <a href="handouts/ch7av3.pdf" target="_blank">Added Value C <i class="fa fa-file-pdf"></i></a>
-                        </li>
-                        <li>
                             <span>Article</span>
                             <a href="handouts/ch9_it_doesnt matter_brief.pdf" target="_blank">IT Doesn't Matter (brief) <i class="fa fa-file-pdf"></i></a>
                         </li>
