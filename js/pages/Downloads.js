@@ -88,6 +88,48 @@ export default {
                     </ul>
                 </div>
 
+                <!-- Module 5 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 5 - Creation and Appropriation of Value</h3>
+                    <ul>
+                        <li>
+                            <span>Case Study</span>
+                            <a href="handouts/smalls_sliders_standalone.pdf" target="_blank">Small Sliders: The Composable Restaurant Franchise <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Exercise</span>
+                            <a href="handouts/cslc.pdf" target="_blank">Customer Service Life Cycle <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Minicase</span>
+                            <a href="handouts/ch7av1.pdf" target="_blank">Added Value at Al Dente <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Minicase</span>
+                            <a href="handouts/ch7av2.pdf" target="_blank">Added Value B <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Minicase</span>
+                            <a href="handouts/ch7av3.pdf" target="_blank">Added Value C <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                        <li>
+                            <span>Article</span>
+                            <a href="handouts/ch9_it_doesnt matter_brief.pdf" target="_blank">IT Doesn't Matter (brief) <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 6 - Funding and Building Information Systems</h3>
+                    <ul>
+                        <li>
+                            <span>Lego Game</span>
+                            <a href="handouts/lego_requirements.pdf" target="_blank">Requirements Document <i class="fa fa-file-pdf"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
         `;

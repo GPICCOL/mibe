@@ -135,7 +135,7 @@ export default {
 
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 6 - Resources</h4>
                     <ul>
-                        <li><a href="handouts/fp_digital business.pdf" target="_blank">Value Creation with Information Systems and Digital Technology</a></li>
+                        <li>Coming soon</li>
                     </ul>
 
                     <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 7 - Resources</h4>
