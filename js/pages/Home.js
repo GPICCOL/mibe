@@ -128,6 +128,22 @@ export default {
                     </ul>
                 </div>
 
+                <!-- Module 4 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 4: Information Systems Planning and Added Value</h3>
+                    <p class="mb-4">This module introduces the strategic planning of information systems and explores how organizations leverage digital technology to create added value.</p>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 6 - Resources</h4>
+                    <ul>
+                        <li><a href="handouts/fp_digital business.pdf" target="_blank">Value Creation with Information Systems and Digital Technology</a></li>
+                    </ul>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 7 - Resources</h4>
+                    <ul>
+                        <li><a href="https://hbr.org/2014/10/capture-more-value" target="_blank">Capture More Value</a></li>
+                    </ul>
+                </div>
+
                 <!-- Module 5 -->
                 <div class="glass-card module-content">
                     <h3 class="module-title">Module 5: Creation and Appropriation of Value</h3>
