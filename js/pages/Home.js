@@ -128,13 +128,41 @@ export default {
                     </ul>
                 </div>
 
-                <!-- Placeholders for future modules can be added here -->
-                <!-- 
-                <div class="glass-card module-content" style="opacity: 0.5;">
-                    <h3 class="module-title">Module 2: Foundations</h3>
-                    <p>Coming Soon...</p>
+                <!-- Module 5 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 5: Creation and Appropriation of Value</h3>
+                    <p class="mb-4">This module focuses on how firms create and capture value using information systems and digital technology.</p>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 8 - Resources</h4>
+                    <ul>
+                        <li><a href="https://sloanreview.mit.edu/article/thriving-in-an-increasingly-digital-ecosystem/" target="_blank">Thriving in an Increasingly Digital Ecosystem</a></li>
+                        <li><a href="https://hbr.org/1995/11/exploiting-the-virtual-value-chain" target="_blank">Exploiting the Virtual Value Chain</a></li>
+                        <li><a href="https://hbr.org/2018/06/the-death-of-supply-chain-management" target="_blank">The Death of Supply Chain Management</a></li>
+                        <li><a href="https://aisel.aisnet.org/misqe/vol15/iss4/5/" target="_blank">Enhancing Customer Service through the Internet of Things</a></li>
+                        <li><a href="https://sloanreview.mit.edu/article/your-company-doesnt-need-a-digital-strategy/" target="_blank">Your Company Doesn't Need a Digital Strategy</a></li>
+                    </ul>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 9 - Resources</h4>
+                    <ul>
+                        <li><a href="https://hbr.org/2003/05/it-doesnt-matter" target="_blank">IT Doesn't Matter</a></li>
+                    </ul>
                 </div>
-                -->
+
+                <!-- Module 6 -->
+                <div class="glass-card module-content">
+                    <h3 class="module-title">Module 6: Funding and Building Information Systems</h3>
+                    <p class="mb-4">This module covers how organizations fund, develop, and implement information systems projects.</p>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 10 - Resources</h4>
+                    <ul>
+                        <li><a href="https://hbr.org/2003/11/it-doesnt-matter-an-hbr-debate" target="_blank">Coming soon</a></li>
+                    </ul>
+
+                    <h4 style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase;">Chapter 11 - Resources</h4>
+                    <ul>
+                        <li><a href="https://hbr.org/2003/11/it-doesnt-matter-an-hbr-debate" target="_blank">Coming soon</a></li>
+                    </ul>
+                </div>
 
             </div>
         </section>
