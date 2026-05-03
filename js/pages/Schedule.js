@@ -63,7 +63,7 @@ export default {
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 16</h3>
                                 <p>Class held by Prof. Piccoli</p>
-                            </li> -->
+                            </li> 
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of March 30</h3>
                                 <p>Class held by Prof. Pigni</p>
@@ -75,7 +75,7 @@ export default {
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of April 20</h3>
                                 <p>Class held by Prof. Pigni</p>
-                            </li>
+                            </li> -->
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of May 4</h3>
                                 <p>Class held by Prof. Piccoli</p>
