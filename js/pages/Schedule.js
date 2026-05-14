@@ -25,7 +25,7 @@ export default {
                     { title: "Chapter 6", file: "09_Ch06_Planning-federico.pdf" },
                     { title: "Chapter 7", file: "10_Ch07_added_value.pdf" },
                     { title: "Chapter 8", file: "11_Ch08_digital_value_creation.pdf" },
-                    { title: "Chapter 9", file: null },
+                    { title: "Chapter 9", file: "12_Ch09_digital_value_capture.pdf" },
                     { title: "Chapter 10", file: null },
                     { title: "Chapter 11", file: null },
                     { title: "Chapter 12", file: null },
@@ -75,7 +75,7 @@ export default {
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of April 20</h3>
                                 <p>Class held by Prof. Pigni</p>
-                            </li> -->
+                            </li> 
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of May 4</h3>
                                 <p>Class held by Prof. Piccoli</p>
@@ -83,7 +83,7 @@ export default {
                             <li style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of May 11</h3>
                                 <p>Class held by Prof. Piccoli</p>
-                            </li>
+                            </li> -->
                             <li>
                                 <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Week of May 18</h3>
                                 <p>Class held by Prof. Piccoli</p>
